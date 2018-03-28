@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.6"
+
+[packages]
+invoke = "*"
+sphinx = "*"
+sphinx-autobuild = "*"
+sphinx-rtd-theme = "*"
+
+[scripts]
+build = "sphinx-build -b html source/ build/html"
+clean = "invoke clean -b html"
+watch = "sphinx-autobuild -b html source/ build/html"
