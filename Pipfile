@@ -16,3 +16,6 @@ sphinx-rtd-theme = "*"
 build = "sphinx-build -b html source/ build/html"
 clean = "invoke clean -b html"
 watch = "sphinx-autobuild -b html source/ build/html"
+
+[dev-packages]
+"doc8" = "*"
