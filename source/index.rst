@@ -10,4 +10,3 @@ A short talk for Taipei.py.
     what
     history
     another
-    next
